@@ -1,0 +1,56 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0px;
+}
+
+.flexbox-container {
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 150px;
+
+}
+
+.half-width img {
+    width: 70%;
+    padding-left: 50px;
+
+}
+
+.orange-color {
+    color: rgb(255, 153, 0);
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, red, orange);
+    color: white;
+    font-weight: 900;
+    padding: 9px 15px;
+    border-radius: 20px;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.flexbox-container2 {
+    background-image: url(images/shapes/7.png);
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 100px;
+}
+
+#text-section {
+    text-align: center;
+    padding: 0 250px;
+    margin-bottom: 10px;
+}
