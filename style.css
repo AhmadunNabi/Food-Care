@@ -1,23 +1,20 @@
 body {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0px;
 }
 
 .flexbox-container {
     display: flex;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 100px;
-}
-
-h1 {
-    font-size: 50px;
 }
 
 .half-width {
     width: 50%;
     padding-left: 50px;
     padding-right: 30px;
-    padding-top: 150px;
+    padding-top: 75px;
 
 }
 
@@ -51,6 +48,24 @@ h1 {
 
 #text-section {
     text-align: center;
-    padding: 0 250px;
+    padding: 0px 250px 0px 250px;
     margin-bottom: 10px;
+}
+
+.onethird-width {
+    width: 33.333%;
+    box-shadow: 0px 0px 5px 5px rgb(222, 222, 222);
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.onethird-width img {
+    width: 94%;
+    padding: 3%;
+}
+
+.onethird-width p {
+    margin-top: 0px;
+    padding: 0% 0% 0% 3%;
 }
